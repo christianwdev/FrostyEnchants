@@ -1,0 +1,7 @@
+main: com.Emile2250.FrostyEnchants.FrostyEnchants
+version: 1.0
+name: FrostyEnchants
+
+commands:
+  ce:
+    description: Opens a menu to get custom enchantments.

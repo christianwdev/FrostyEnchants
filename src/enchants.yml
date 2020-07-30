@@ -1,0 +1,22 @@
+enchants:
+  speed:
+    name: "&bSpeed"
+    lore:
+      - "&7Apply to your boots to get a speed boost!"
+    effect: "SPEED"
+    level: 1
+    slot: 11
+    cost: 20000
+    items:
+      - "Boots"
+
+  strength:
+    name: "&bStrength"
+    lore:
+      - "&7Apply this to your chestplate to deal extra damage!"
+    effect: "STRENGTH"
+    level: 1
+    slot: 13
+    cost: 25000
+    items:
+      - "Chestplate"

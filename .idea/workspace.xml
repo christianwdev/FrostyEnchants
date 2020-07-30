@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34f71ec-f96d-4695-867b-658c92691b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_8_8_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrostyEnchants.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Util/ConfigUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Util/ChatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enchants.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45632184" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Emile2250.FrostyEnchants.Util" />
+    </key>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -53,6 +59,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="702" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595991819210">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="702" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595991819210" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595992532378">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595992532378" />
     <state x="666" y="281" key="FileChooserDialogImpl" timestamp="1595990153051">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -61,5 +75,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595990967818" />
+    <state x="2342" y="-7" width="1424" height="1066" maximized="true" key="dock-window-1" timestamp="1596065396423">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2342" y="-7" width="1424" height="1066" maximized="true" key="dock-window-1/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596065396423" />
   </component>
 </project>
