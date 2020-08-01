@@ -10,8 +10,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 
 public class CustomEnchantGUI {
 
@@ -31,8 +29,8 @@ public class CustomEnchantGUI {
         ArrayList<String> lore = new ArrayList<>();
         lore.add(ChatColor.translateAlternateColorCodes('&', "&7Cost: " + e.getCost()));
         String items = ChatColor.translateAlternateColorCodes('&', "&7Applies to");
-        for (Material i : e.getItems()) {
-            items += ChatColor.translateAlternateColorCodes('&', " " + i.name());
+        for (String i : e.getItems()) {
+            items += ChatUtil.color(" " + i);
         }
         lore.add(items);
         meta.setLore(lore);
@@ -41,8 +39,10 @@ public class CustomEnchantGUI {
         gui.setItem(e.getSlot(), enchant);
     }
 
-    public static void open(Player player) {
-
+    public void open(Player player) {
+        player.openInventory(gui);
     }
+
+    public static Inventory getInv() { return gui; }
 
 }

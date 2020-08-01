@@ -1,7 +1,9 @@
 package com.Emile2250.FrostyEnchants.Enchantments;
 
+import com.Emile2250.FrostyEnchants.Util.ChatUtil;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffectType;
 
 import java.util.ArrayList;
@@ -14,9 +16,10 @@ public class Enchantment {
     private int cost;
     private int level;
     PotionEffectType effect;
-    private ArrayList<Material> items;
+    private ArrayList<String> items;
+    private ItemStack item;
 
-    public Enchantment(String n, ArrayList<String> lore, int s, int c, int level, PotionEffectType e, ArrayList<Material> i) {
+    public Enchantment(String n, ArrayList<String> lore, int s, int c, int level, PotionEffectType e, ArrayList<String> i) {
         name = n;
         this.lore = lore;
         slot = s;
@@ -24,6 +27,14 @@ public class Enchantment {
         this.level = level;
         effect = e;
         items = i;
+
+        // Setups the item to be bought
+
+        item = new ItemStack(Material.NETHER_STAR);
+        ItemMeta meta = item.getItemMeta();
+        meta.setDisplayName(name);
+        meta.setLore(lore);
+        item.setItemMeta(meta);
     }
 
     public String getName() {
@@ -50,7 +61,11 @@ public class Enchantment {
         return effect;
     }
 
-    public ArrayList<Material> getItems() {
+    public ItemStack getItem() {
+        return item;
+    }
+
+    public ArrayList<String> getItems() {
         return items;
     }
 }

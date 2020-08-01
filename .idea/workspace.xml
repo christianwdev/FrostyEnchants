@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="FrostyEnchants" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a34f71ec-f96d-4695-867b-658c92691b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Util/ChatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enchants.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Util/ExpFix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/messages.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Development/MC Dev/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.45632184" />
   </component>
@@ -59,6 +64,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="198" key="#Auto_Import" timestamp="1596133871668">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="198" key="#Auto_Import/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596133871668" />
     <state x="702" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595991819210">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -71,13 +80,17 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="666" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595990153051" />
-    <state x="440" y="114" key="SettingsEditor" timestamp="1595990967818">
+    <state x="440" y="114" key="SettingsEditor" timestamp="1596296824523">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595990967818" />
+    <state x="440" y="114" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596296824523" />
     <state x="2342" y="-7" width="1424" height="1066" maximized="true" key="dock-window-1" timestamp="1596065396423">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2342" y="-7" width="1424" height="1066" maximized="true" key="dock-window-1/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596065396423" />
+    <state x="2262" y="160" key="new project wizard" timestamp="1596173001079">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2262" y="160" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1596173001079" />
   </component>
 </project>
