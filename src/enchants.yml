@@ -26,7 +26,7 @@ enchants:
     lore:
       - "&7Apply this to your sword to multiply your xp!"
     effect: "XP" # THIS MUST BE XP FOR IT TO WORK
-    level: 1 # Multiplier of XP
+    level: 10 # Multiplier of XP do not +1 this.
     slot: 15
     cost: 25000
     items:
