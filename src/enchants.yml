@@ -7,6 +7,7 @@ enchants:
     level: 1
     slot: 11
     cost: 20000
+    enchant-color: "&b"
     items:
       - "Boots"
 
@@ -14,9 +15,10 @@ enchants:
     name: "&bStrength"
     lore:
       - "&7Apply this to your chestplate to deal extra damage!"
-    effect: "STRENGTH"
+    effect: "INCREASE_DAMAGE"
     level: 1
     slot: 13
     cost: 25000
+    enchant-color: "&5"
     items:
       - "Chestplate"

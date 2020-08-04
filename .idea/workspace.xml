@@ -7,14 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a34f71ec-f96d-4695-867b-658c92691b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Util/ExpFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/messages.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEffects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEnchant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Commands/CommandHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/CustomEnchantGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enchants.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/enchants.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/messages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1595991819210" />
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser" timestamp="1596499641817">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="765" y="249" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1596499641817" />
     <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595992532378">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

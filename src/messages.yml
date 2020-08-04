@@ -1,3 +1,6 @@
 bought-enchant: ""
 no-inv-space: ""
 cant-afford: ""
+applied-enchant: ""
+already-has-enchant: ""
+wrong-item-type: ""

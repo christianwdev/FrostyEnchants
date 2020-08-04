@@ -6,7 +6,6 @@ import com.Emile2250.FrostyEnchants.FrostyEnchants;
 import com.Emile2250.FrostyEnchants.Util.ChatUtil;
 import com.Emile2250.FrostyEnchants.Util.ExpFix;
 import org.bukkit.GameMode;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -24,7 +23,9 @@ public class GUIListener implements Listener {
                     Player player = (Player) e.getWhoClicked();
                     if (player.getTotalExperience() >= enchant.getCost() || player.getGameMode() == GameMode.CREATIVE) {
                         if (hasSpace(player)) {
-                            ExpFix.setTotalExperience(player, player.getTotalExperience() - enchant.getCost());
+                            if (player.getGameMode() != GameMode.CREATIVE) {
+                                ExpFix.setTotalExperience(player, player.getTotalExperience() - enchant.getCost());
+                            }
 
                             player.getInventory().addItem(enchant.getItem());
 

@@ -1,6 +1,5 @@
 package com.Emile2250.FrostyEnchants.Enchantments;
 
-import com.Emile2250.FrostyEnchants.Util.ChatUtil;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
@@ -11,6 +10,7 @@ import java.util.ArrayList;
 public class Enchantment {
 
     private String name;
+    private String color;
     private ArrayList<String> lore;
     private int slot;
     private int cost;
@@ -19,11 +19,12 @@ public class Enchantment {
     private ArrayList<String> items;
     private ItemStack item;
 
-    public Enchantment(String n, ArrayList<String> lore, int s, int c, int level, PotionEffectType e, ArrayList<String> i) {
+    public Enchantment(String n, ArrayList<String> lore, int s, int cost, int level, String color, PotionEffectType e, ArrayList<String> i) {
         name = n;
         this.lore = lore;
         slot = s;
-        cost = c;
+        this.cost = cost;
+        this.color = color;
         this.level = level;
         effect = e;
         items = i;
