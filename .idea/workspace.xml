@@ -7,14 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a34f71ec-f96d-4695-867b-658c92691b32" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEffects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEnchant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Enchantments/Enchantment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/FrostyEnchants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/GUIListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enchants.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/enchants.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/messages.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/messages.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEffects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Emile2250/FrostyEnchants/Listeners/ApplyEffects.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

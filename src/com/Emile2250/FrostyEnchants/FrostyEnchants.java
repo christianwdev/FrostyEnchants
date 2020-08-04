@@ -100,7 +100,7 @@ public class FrostyEnchants extends JavaPlugin {
                 String path = "enchants." + enchant + ".";
                 String name = ChatUtil.color(config.getString(path + "name"));
                 String color = config.getString(ChatUtil.color("enchant-color"));
-                PotionEffectType effect = PotionEffectType.getByName(config.getString(path + "effect"));
+                String effect = config.getString(path + "effect");
                 int level = config.getInt(path + "level");
                 int slot = config.getInt(path + "slot");
                 int cost = config.getInt(path + "cost");

@@ -3,6 +3,7 @@ package com.Emile2250.FrostyEnchants.Enchantments;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
 import java.util.ArrayList;
@@ -15,18 +16,20 @@ public class Enchantment {
     private int slot;
     private int cost;
     private int level;
+    private String rawEffect;
     PotionEffectType effect;
     private ArrayList<String> items;
     private ItemStack item;
 
-    public Enchantment(String n, ArrayList<String> lore, int s, int cost, int level, String color, PotionEffectType e, ArrayList<String> i) {
+    public Enchantment(String n, ArrayList<String> lore, int s, int cost, int level, String color, String e, ArrayList<String> i) {
         name = n;
         this.lore = lore;
         slot = s;
         this.cost = cost;
         this.color = color;
         this.level = level;
-        effect = e;
+        rawEffect = e;
+        effect = PotionEffectType.getByName(e);
         items = i;
 
         // Setups the item to be bought
@@ -57,6 +60,8 @@ public class Enchantment {
     public int getLevel() {
         return level;
     }
+
+    public String getRawEffect() { return rawEffect; }
 
     public PotionEffectType getEffect() {
         return effect;
