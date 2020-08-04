@@ -92,7 +92,7 @@ public class ApplyEffects implements Listener {
             if (e.getClickedInventory() == e.getWhoClicked().getInventory()) {
                 if (e.getSlot() >= 36 && e.getSlot() <= 39) {
                     if (e.getCurrentItem().getType() != Material.AIR) {
-                        if (isArmor(e.getCursor()) && (sameItemType(e.getCurrentItem(), e.getCursor()) || e.getCursor().getType() == Material.AIR)) {
+                        if (e.getCursor().getType() == Material.AIR || isArmor(e.getCursor()) && (sameItemType(e.getCurrentItem(), e.getCursor()))) {
                             if (e.getCurrentItem().hasItemMeta() && e.getCurrentItem().getItemMeta().hasLore()) {
                                 removeEffects(e.getCurrentItem(), (Player) e.getWhoClicked());
                             }
@@ -125,7 +125,7 @@ public class ApplyEffects implements Listener {
     }
 
     private boolean isArmor(ItemStack item) {
-        return (CraftItemStack.asNMSCopy(item).getItem() instanceof ItemArmor);
+        return (CraftItemStack.asNMSCopy(item).getItem() instanceof ItemArmor); // make sure item isnt null
     }
 
     private boolean sameItemType(ItemStack item1, ItemStack item2) {
